@@ -176,7 +176,8 @@ nav {
 }
 /* ================ banner section css end here =============== */
 /* ================ service section css start here =============== */
-.service_item{
+.service_item {
+  padding: 20px 0;
   gap: 25px;
 }
 .service_item_icon {
@@ -212,9 +213,71 @@ nav {
   line-height: normal;
 }
 /* ================ service section css end here =============== */
-/* ================ section css start here =============== */
-
-/* ================ section css end here =============== */
+/* ================ feature section css start here =============== */
+#feature {
+  padding: 100px 0 130px;
+}
+.feature_left_part_wrapper,
+.feature_right_part_wrapper {
+  background: url(../images/feature_1_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 38px 75px 44px 70px;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+.feature_right_part_wrapper {
+  background: url(../images/feature_2_bg.png);
+}
+.feature_left_part_wrapper h3,
+.feature_right_part_wrapper h3 {
+  font-family: var(--cairo-font);
+  color: var(--primary-text-clr);
+  font-size: 36px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.feature_left_part_wrapper p,
+.feature_right_part_wrapper p {
+  max-width: 512px;
+  color: var(--primary-text-clr);
+  font-family: var(--openSans-font);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.feature_left_item_wrapper,
+.feature_right_part_wrapper {
+  position: relative;
+}
+.feature_slider_arrow {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--white-clr);
+  filter: drop-shadow(0px 25px 33px rgba(108, 93, 211, 0.25));
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+.feature_slider_arrow {
+  line-height: 50px;
+  font-size: 22px;
+  color: var(--primary-text-clr);
+}
+/* ================ feature section css end here =============== */
 /* ================ section css start here =============== */
 
 /* ================ section css end here =============== */
