@@ -18,7 +18,7 @@
   /* === colors === */
   --white-clr: #fff;
   --black-clr: #000;
-  --primary-clr: #ff4655;
+  --primary-clr: #6c5dd3;
   --primary-bg-clr: #121212;
   --secondary-bg-clr: #191919;
   --secondary-text-clr: #dddddd;
@@ -68,6 +68,30 @@ img {
   max-width: 1620px;
   margin: 0 auto;
 }
+.common_btn {
+  padding: 13px 29px;
+  font-family: var(--cairo-font);
+  font-size: 18px;
+  font-weight: var(--bold-weight);
+  color: var(--white-clr);
+  line-height: normal;
+  border-radius: 14px;
+  background-color: var(--primary-clr);
+  box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.common_btn:hover{
+  color: var(--primary-clr);
+  background-color: #F0EEFF;
+}
 /* ============= common css end here ================ */
 
 /* ============ navbar css start here =============== */
@@ -77,8 +101,11 @@ nav {
   box-shadow: 0px 29px 39px 0px rgba(0, 0, 0, 0.01);
   border-bottom: 1px solid #f0f0f0;
 }
-
-.nav_search_box.input-group{
+.navbar-brand{
+  padding-right: 146px;
+  margin-right: unset;
+}
+.nav_search_box.input-group {
   border-radius: unset;
   -webkit-border-radius: unset;
   -moz-border-radius: unset;
@@ -88,15 +115,18 @@ nav {
 .nav_search_box {
   max-width: 940px;
   background-color: var(--white-clr);
-  border: 1px solid  #e1e1e1;
+  border: unset;
   border-radius: 14px !important;
   -webkit-border-radius: 14px !important;
   -moz-border-radius: 14px !important;
   -ms-border-radius: 14px !important;
   -o-border-radius: 14px !important;
+  font-family: var(--cairo-font);
 }
 .nav_search_box input {
   padding: 19px 29px;
+  border: 1px solid #E1E1E1;
+  font-size: 16px;
 }
 .nav_search_box span {
   padding: 19px 29px;
@@ -106,27 +136,46 @@ nav {
   background-color: var(--white-clr);
   color: #6c5dd3;
   font-size: 18px;
+  border: 1px solid #E1E1E1;
 }
-.nav_search_box span:nth-child(1){
+.nav_search_box span:nth-child(1) {
   border-radius: 14px 0px 0px 14px;
   -webkit-border-radius: 14px 0px 0px 14px;
   -moz-border-radius: 14px 0px 0px 14px;
   -ms-border-radius: 14px 0px 0px 14px;
   -o-border-radius: 14px 0px 0px 14px;
 }
-.nav_search_box span:nth-child(2){
-  border-radius: 0px 14px 14px 0px !important;
-  -webkit-border-radius: 0px 14px 14px 0px !important;
-  -moz-border-radius: 0px 14px 14px 0px !important;
-  -ms-border-radius: 0px 14px 14px 0px !important;
-  -o-border-radius: 0px 14px 14px 0px !important;
+.nav_search_box span {
+  border-radius: 0px 14px 14px 0px;
+  -webkit-border-radius: 0px 14px 14px 0px;
+  -moz-border-radius: 0px 14px 14px 0px;
+  -ms-border-radius: 0px 14px 14px 0px;
+  -o-border-radius: 0px 14px 14px 0px;
+}
+.nav_btn_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+.nav_btn_wrapper .common_btn i{
+  padding-right: 20px;
+  font-size: 22px;
+
 }
 
 /* ============ navbar css end here =============== */
 
-/* ================ section css start here =============== */
-
-/* ================ section css end here =============== */
+/* ================ banner section css start here =============== */
+  #banner{
+    padding: 39px 0 60px;
+  }
+  .banner_left_part{
+    max-width: 1212px;
+  }
+  .banner_right_part{
+    max-width: 384px;
+  }
+/* ================ banner section css end here =============== */
 /* ================ section css start here =============== */
 
 /* ================ section css end here =============== */
