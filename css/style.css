@@ -1,0 +1,174 @@
+/* ============== import area start here =================== */
+
+/* ============== import area end here =================== */
+/* ============ css variables ============= */
+:root {
+  /* === font family === */
+  --cairo-font: "Cairo", serif;
+  --openSans-font: "Open Sans", serif;
+  /* === font family === */
+  /* === font weight === */
+  --light-weight: 300;
+  --regular-weight: 400;
+  --medium-weight: 500;
+  --semi-bold-weight: 600;
+  --bold-weight: 700;
+
+  /* === font weight === */
+  /* === colors === */
+  --white-clr: #fff;
+  --black-clr: #000;
+  --primary-clr: #ff4655;
+  --primary-bg-clr: #121212;
+  --secondary-bg-clr: #191919;
+  --secondary-text-clr: #dddddd;
+  --transparent-clr: transparent;
+  /* === colors === */
+  /* === method === */
+  --transition: all 0.3s linear;
+  /* === method === */
+}
+/* ============ css variables ============= */
+
+/* ============= common css start here ================ */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ul,
+ol,
+menu {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+menu,
+div {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  max-width: 1620px;
+  margin: 0 auto;
+}
+/* ============= common css end here ================ */
+
+/* ============ navbar css start here =============== */
+nav {
+  padding: 33px 0 !important;
+  width: 100%;
+  box-shadow: 0px 29px 39px 0px rgba(0, 0, 0, 0.01);
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.nav_search_box.input-group{
+  border-radius: unset;
+  -webkit-border-radius: unset;
+  -moz-border-radius: unset;
+  -ms-border-radius: unset;
+  -o-border-radius: unset;
+}
+.nav_search_box {
+  max-width: 940px;
+  background-color: var(--white-clr);
+  border: 1px solid  #e1e1e1;
+  border-radius: 14px !important;
+  -webkit-border-radius: 14px !important;
+  -moz-border-radius: 14px !important;
+  -ms-border-radius: 14px !important;
+  -o-border-radius: 14px !important;
+}
+.nav_search_box input {
+  padding: 19px 29px;
+}
+.nav_search_box span {
+  padding: 19px 29px;
+  display: flex;
+  align-items: center;
+  column-gap: 17px;
+  background-color: var(--white-clr);
+  color: #6c5dd3;
+  font-size: 18px;
+}
+.nav_search_box span:nth-child(1){
+  border-radius: 14px 0px 0px 14px;
+  -webkit-border-radius: 14px 0px 0px 14px;
+  -moz-border-radius: 14px 0px 0px 14px;
+  -ms-border-radius: 14px 0px 0px 14px;
+  -o-border-radius: 14px 0px 0px 14px;
+}
+.nav_search_box span:nth-child(2){
+  border-radius: 0px 14px 14px 0px !important;
+  -webkit-border-radius: 0px 14px 14px 0px !important;
+  -moz-border-radius: 0px 14px 14px 0px !important;
+  -ms-border-radius: 0px 14px 14px 0px !important;
+  -o-border-radius: 0px 14px 14px 0px !important;
+}
+
+/* ============ navbar css end here =============== */
+
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
+/* ================ section css start here =============== */
+
+/* ================ section css end here =============== */
