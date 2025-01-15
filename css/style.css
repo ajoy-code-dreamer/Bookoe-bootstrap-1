@@ -476,7 +476,7 @@ nav {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
 }
-.flash_sale_item_wrapper:hover{
+.flash_sale_item_wrapper:hover {
   border-color: #aaa;
   box-shadow: 5px 5px 5px rgba(170, 170, 170, 0.1);
 }
@@ -521,9 +521,14 @@ nav {
   line-height: normal;
 }
 /* ================ flash section css end here =============== */
-/* ================ section css start here =============== */
-
-/* ================ section css end here =============== */
+/* ================ book_sale section css start here =============== */
+#book_sale {
+  padding: 30px 0 56px;
+}
+#book_sale .common_section_heading {
+  margin-bottom: 34px;
+}
+/* ================ book_sale section css end here =============== */
 /* ================ section css start here =============== */
 
 /* ================ section css end here =============== */
