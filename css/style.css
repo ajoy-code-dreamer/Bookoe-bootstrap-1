@@ -657,7 +657,7 @@ nav {
   background: url(../images/books_bg.png) no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: 100px;
+  margin: 100px 0;
   padding: 71px 0;
 }
 #books .common_section_heading p {
@@ -678,7 +678,7 @@ nav {
   object-position: center;
   cursor: pointer;
 }
-.books_right_part_wrapper .row{
+.books_right_part_wrapper .row {
   row-gap: 37px;
 }
 .books_single_item {
@@ -693,9 +693,76 @@ nav {
   -o-border-radius: 14px;
 }
 /* ================ books section css end here =============== */
-/* ================ section css start here =============== */
-
-/* ================ section css end here =============== */
+/* ================ testimonials section css start here =============== */
+#testimonials {
+  padding: 76px 0 115px;
+}
+#testimonials .common_section_heading {
+  text-align: center;
+  margin-bottom: 27px;
+}
+#testimonials .common_section_heading p {
+  max-width: 584px;
+  margin: 0 auto;
+}
+.testimonials_users_image {
+  max-width: 257px;
+  margin: 0 auto;
+  margin-bottom: 81px;
+}
+.testimonials_item_wrapper {
+  max-width: 754px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: var(--white-clr);
+  box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+  padding: 37px 37px 50px 50px;
+}
+.testimonials_item_wrapper h4 {
+  max-width: 604px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--black-clr);
+  font-family: var(--openSans-font);
+  font-size: 22px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+  margin-bottom: 28px;
+}
+.testimonials_user {
+  column-gap: 25px;
+}
+.testimonials_user .user_image {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #c4c4c4;
+  flex-shrink: 0;
+}
+.testimonials_user .user_info h5 {
+  color: #3d3d3d;
+  font-family: var(--openSans-font);
+  font-size: 18px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin-bottom: 6px;
+}
+.testimonials_user .user_info h6 {
+  color: #3d3d3d;
+  font-family: var(--openSans-font);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+.testimonials_ratting{
+  font-size: 22px;
+  color: #ff754c;
+}
+/* ================ testimonials section css end here =============== */
 /* ================ section css start here =============== */
 
 /* ================ section css end here =============== */
