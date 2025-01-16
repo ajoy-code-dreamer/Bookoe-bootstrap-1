@@ -763,9 +763,13 @@ nav {
   color: #ff754c;
 }
 /* ================ testimonials section css end here =============== */
-/* ================ section css start here =============== */
+/* ================ news section css start here =============== */
+#news{
+  margin: 100px 0;
+  padding: 56px 0 128px;
+}
 
-/* ================ section css end here =============== */
+/* ================ news section css end here =============== */
 /* ================ section css start here =============== */
 
 /* ================ section css end here =============== */
