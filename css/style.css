@@ -652,9 +652,47 @@ nav {
 }
 
 /* ================ book_sale section css end here =============== */
-/* ================ section css start here =============== */
-
-/* ================ section css end here =============== */
+/* ================ books section css start here =============== */
+#books {
+  background: url(../images/books_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  padding: 71px 0;
+}
+#books .common_section_heading p {
+  max-width: 453px;
+  margin-bottom: 60px;
+}
+.books_features_images {
+  max-width: 762px;
+  height: 482px;
+  border-radius: 14px;
+  box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+.books_right_part_wrapper .row{
+  row-gap: 37px;
+}
+.books_single_item {
+  max-width: 238px;
+  height: 336px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #c4c4c4;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+/* ================ books section css end here =============== */
 /* ================ section css start here =============== */
 
 /* ================ section css end here =============== */
