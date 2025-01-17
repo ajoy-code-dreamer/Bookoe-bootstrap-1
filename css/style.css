@@ -885,9 +885,81 @@ nav {
   line-height: normal;
 }
 /* ================ counter section css end here =============== */
-/* ================ section css start here =============== */
+/* ================ newsletter section css start here =============== */
+#newsletter {
+  padding: 100px 0 188px;
+}
+.newsletter_section_wrapper {
+  background: url(../images/newsletter_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  padding: 69px 20px;
+  box-shadow: 1px 15px 20px 5px rgba(109, 93, 211, 0.4);
+}
+.newsletter_section_wrapper h3 {
+  max-width: 693px;
+  margin: 0 auto;
+  font-family: var(--cairo-font);
+  color: var(--white-clr);
+  font-size: 40px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+.newsletter_section_wrapper .form {
+  max-width: 652px;
+  margin: 0 auto;
+  height: 68px;
+  position: relative;
+}
+.newsletter_section_wrapper .form input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 14px;
+  background: #7c6de3;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  padding: 22px 32px;
+  color: #e2e2e2;
+  font-size: 16px;
+}
+.newsletter_section_wrapper .form input::placeholder{
+  color: #e2e2e2;
+  font-family: var(--openSans-font);
+  font-weight: var(--regular-weight);
+  line-height: 24px;
+}
+.newsletter_section_wrapper .form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  color: var(--primary-text-clr);
+  font-family: var(--cairo-font);
+  font-size: 18px;
+  font-weight: var(--bold-weight);
+  line-height: 24px;
+  background-color: var(--white-clr);
+  padding: 22px 38px;
+  border-radius: 0px 14px 14px 0px;
+  box-shadow: 0px 7px 20px 0px rgba(141, 40, 173, 0.15);
+  border: none;
+  -webkit-border-radius: 0px 14px 14px 0px;
+  -moz-border-radius: 0px 14px 14px 0px;
+  -ms-border-radius: 0px 14px 14px 0px;
+  -o-border-radius: 0px 14px 14px 0px;
+}
 
-/* ================ section css end here =============== */
+/* ================ newsletter section css end here =============== */
 /* ================ section css start here =============== */
 
 /* ================ section css end here =============== */
