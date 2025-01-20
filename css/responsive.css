@@ -132,7 +132,7 @@
   #news .common_section_heading {
     text-align: center;
   }
-  #news .common_section_heading p{
+  #news .common_section_heading p {
     margin: 0 auto;
   }
   .news_item_content h3 {
@@ -142,6 +142,46 @@
     margin: 4px 0 10px;
   }
   /* === news ===  */
+  /* === counter === */
+  #counter {
+    padding: 30px 0 35px;
+  }
+  .counter_item_icon {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .counter_item_wrapper h4 {
+    font-size: 38px;
+  }
+  .counter_item_wrapper h6 {
+    font-size: 18px;
+  }
+
+  /* === counter === */
+  /* === newsletter === */
+  #newsletter {
+    padding: 30px 0 40px;
+  }
+  .newsletter_section_wrapper {
+    padding: 30px 20px;
+  }
+  .newsletter_section_wrapper h3 {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 25px;
+  }
+  .newsletter_section_wrapper .form {
+    height: 50px;
+  }
+  .newsletter_section_wrapper .form button {
+    padding: 14px 15px;
+    font-size: 14px;
+  }
+  .newsletter_section_wrapper .form input {
+    padding: 10px 15px;
+  }
+
+  /* === newsletter === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -196,13 +236,34 @@
   .news_item_content h3 {
     margin: 10px 0 5px;
   }
-  #news .common_section_heading p{
+  #news .common_section_heading p {
     margin: 0 auto;
   }
   .news_item_content a {
     margin: 4px 0 10px;
   }
   /* === news ===  */
+  /* === counter === */
+  #counter {
+    padding: 30px 0 35px;
+  }
+  .counter_item_icon {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .counter_item_wrapper h4 {
+    font-size: 38px;
+  }
+  .counter_item_wrapper h6 {
+    font-size: 18px;
+  }
+
+  /* === counter === */
+  /* === newsletter === */
+  #newsletter {
+    padding: 30px 0 40px;
+  }
+  /* === newsletter === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -258,7 +319,7 @@
   #news .common_section_heading {
     text-align: center;
   }
-  #news .common_section_heading p{
+  #news .common_section_heading p {
     margin: 0 auto;
   }
   .news_item_content h3 {
@@ -268,6 +329,11 @@
     margin: 4px 0 10px;
   }
   /* === news ===  */
+  /* === newsletter === */
+  #newsletter {
+    padding: 30px 0 40px;
+  }
+  /* === newsletter === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
