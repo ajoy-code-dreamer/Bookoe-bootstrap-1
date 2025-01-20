@@ -182,6 +182,20 @@
   }
 
   /* === newsletter === */
+  /* === footer === */
+  footer {
+    padding-top: 20px;
+  }
+  .footer_item_wrapper .footer_details {
+    margin-bottom: 26px;
+}
+.footer_item_wrapper {
+  margin-bottom: 25px;
+}
+.footer_quick_link_wrapper {
+  gap: 2px;
+}
+  /* === footer === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
