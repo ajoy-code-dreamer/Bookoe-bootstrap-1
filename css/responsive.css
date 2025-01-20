@@ -1,26 +1,290 @@
 /* ======== responsive css ======== */
 /* ========================= device (xs 0 > 576) ========================= */
 @media (max-width: 575.98px) {
+  /* === navbar === */
+  nav {
+    padding: 10px 0 !important;
+  }
+  .navbar-brand {
+    padding-right: 20px;
+    width: 150px;
+  }
+  .nav_search_box span {
+    padding: 8px 15px;
+    column-gap: 5px;
+  }
+  .nav_search_box input {
+    padding: 8px 15px;
+  }
+  .common_btn {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  .nav_btn_wrapper .common_btn i {
+    font-size: 18px;
+  }
+  /* === navbar === */
+  /* === feature === */
+  #feature {
+    padding: 30px 0 30px;
+  }
+  .feature_left_part_wrapper,
+  .feature_right_part_wrapper {
+    padding: 19px 35px 22px 30px;
+  }
+  .feature_left_part_wrapper h3,
+  .feature_right_part_wrapper h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .feature_left_part_wrapper p,
+  .feature_right_part_wrapper p {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* === feature === */
+  /* === offer === */
+  .common_section_heading h2 {
+    font-size: 32px;
+  }
+  #offers .common_section_heading {
+    margin-bottom: 36px;
+  }
+  .offer_purchase_wrapper .common_btn {
+    padding: 10px 18px;
+  }
+  .offer_price {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .offer_old_price {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .offer_purchase_wrapper {
+    column-gap: 20px;
+  }
+  .offer_purchase_wrapper .common_btn i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .offer_item_content_wrapper {
+    padding: 18px;
+  }
+  /* === offer === */
+  /* === flash_sale === */
+  #flash_sale {
+    padding: 30px 0 40px;
+  }
+  .flash_sale_item_wrapper {
+    padding: 10px 15px;
+  }
+  .flash_sale_item_image {
+    width: 100%;
+    height: 200px;
+  }
+  /* === flash_sale === */
+  /* === books_sale === */
+  #book_sale .common_section_heading {
+    flex-direction: column;
+    text-align: center;
+  }
+  .book_sale_arrows_wrapper {
+    justify-content: space-between;
+  }
+  /* === books_sale === */
+  /* === books === */
+  #books {
+    margin: 30px 0;
+    padding: 30px 0;
+  }
+  #books .common_section_heading h2 {
+    text-align: center;
+  }
+  #books .common_section_heading p {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  /* === books === */
+  /* === testimonials === */
+  .testimonials_users_image {
+    margin-bottom: 30px;
+  }
+  .testimonials_item_wrapper {
+    padding: 20px 10px;
+  }
+  .testimonials_user_wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+  /* === testimonials === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
 /* ========================= device (sm 576 > 768) ========================= */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* === flash sale === */
+  #flash_sale {
+    padding: 30px 0 40px;
+  }
+  .flash_sale_item_wrapper {
+    padding: 10px 15px;
+  }
+  .flash_sale_item_image {
+    width: 100%;
+    height: 200px;
+  }
+  .flash_countdown_wrapper {
+    margin: 0 auto;
+  }
+  /* === flash sale === */
+  /* === books_sale === */
+  #book_sale .common_section_heading {
+    flex-direction: column;
+    text-align: center;
+  }
+  .book_sale_arrows_wrapper {
+    justify-content: space-between;
+  }
+  /* === books_sale === */
+  /* === books === */
+  #books {
+    margin: 30px 0;
+    padding: 30px 0;
+  }
+  #books .common_section_heading h2 {
+    text-align: center;
+  }
+  #books .common_section_heading p {
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+  /* === books === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
 /* ========================= device (md 768 > 992) ========================= */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* === flash sale === */
+  #flash_sale {
+    padding: 30px 0 40px;
+  }
+  .flash_sale_item_wrapper {
+    padding: 10px 15px;
+  }
+  .flash_sale_item_image {
+    width: 100%;
+    height: 200px;
+  }
+  .flash_countdown_wrapper {
+    margin: 0 auto;
+  }
+  /* === flash sale === */
+  /* === books_sale === */
+  #book_sale .common_section_heading {
+    align-items: center;
+    text-align: center;
+  }
+  .book_sale_arrows_wrapper {
+    justify-content: space-between;
+  }
+  /* === books_sale === */
+  /* === books === */
+  #books .books_right_part_wrapper {
+    padding-top: 30px;
+  }
+  #books .common_section_heading h2 {
+    text-align: center;
+  }
+  #books .common_section_heading p {
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+  /* === books === */
+  /* === testimonials === */
+  .testimonials_item_wrapper {
+    margin: 0 auto;
+  }
+  /* === testimonials === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
 /* ========================= device (lg 992 > 1200) ========================= */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* === navbar === */
+  .navbar-brand {
+    padding-right: 30px;
+  }
+  .nav_search_box {
+    max-width: 440px;
+  }
+  /* === navbar === */
+  /* === books_sale === */
+  #book_sale .common_section_heading {
+    align-items: center;
+    text-align: center;
+  }
+  .book_sale_arrows_wrapper {
+    justify-content: space-between;
+  }
+  /* === books_sale === */
+  /* === testimonials === */
+  /* === testimonials === */
+  .testimonials_users_image {
+    margin-bottom: 30px;
+  }
+  .testimonials_item_wrapper {
+    padding: 20px 10px;
+  }
+  .testimonials_user_wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+  /* === testimonials === */
+  /* === testimonials === */
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
 /* ========================= device (xl 1200 > 1400) ========================= */
 @media (min-width: 1200px) and (max-width: 1400px) {
+  /* === navbar === */
+  .navbar-brand {
+    padding-right: 100px;
+  }
+  .nav_search_box {
+    max-width: 540px;
+  }
+  /* === navbar === */
+  /* === offer === */
+
+  .offer_purchase_wrapper .common_btn {
+    padding: 10px 18px;
+  }
+  .offer_price {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .offer_old_price {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .offer_purchase_wrapper {
+    column-gap: 20px;
+  }
+  .offer_purchase_wrapper .common_btn i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .offer_item_content_wrapper {
+    padding: 18px;
+  }
+  /* === offer === */
 }
 /* ========================= device (xl 1200 > 1400) ========================= */
 /* ========================= device (xxl 1400 >>) ========================= */

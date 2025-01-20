@@ -268,9 +268,9 @@ nav {
   line-height: normal;
   margin-bottom: 50px;
 }
-.feature_left_item_wrapper,
-.feature_right_part_wrapper {
+.feature_item_wrapper {
   position: relative;
+  gap: 16px;
 }
 .feature_slider_arrow {
   position: absolute;
