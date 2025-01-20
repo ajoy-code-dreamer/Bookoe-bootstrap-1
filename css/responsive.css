@@ -110,6 +110,9 @@
   }
   /* === books === */
   /* === testimonials === */
+  #testimonials {
+    padding: 30px 0 30px;
+  }
   .testimonials_users_image {
     margin-bottom: 30px;
   }
@@ -121,6 +124,24 @@
     gap: 24px;
   }
   /* === testimonials === */
+  /* === news ===  */
+  #news {
+    margin: 30px 0;
+    padding: 20px 0 50px;
+  }
+  #news .common_section_heading {
+    text-align: center;
+  }
+  #news .common_section_heading p{
+    margin: 0 auto;
+  }
+  .news_item_content h3 {
+    margin: 10px 0 5px;
+  }
+  .news_item_content a {
+    margin: 4px 0 10px;
+  }
+  /* === news ===  */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -164,6 +185,24 @@
     margin: 0 auto;
   }
   /* === books === */
+  /* === news ===  */
+  #news {
+    margin: 30px 0;
+    padding: 20px 0 50px;
+  }
+  #news .common_section_heading {
+    text-align: center;
+  }
+  .news_item_content h3 {
+    margin: 10px 0 5px;
+  }
+  #news .common_section_heading p{
+    margin: 0 auto;
+  }
+  .news_item_content a {
+    margin: 4px 0 10px;
+  }
+  /* === news ===  */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -211,6 +250,24 @@
     margin: 0 auto;
   }
   /* === testimonials === */
+  /* === news ===  */
+  #news {
+    margin: 30px 0;
+    padding: 20px 0 50px;
+  }
+  #news .common_section_heading {
+    text-align: center;
+  }
+  #news .common_section_heading p{
+    margin: 0 auto;
+  }
+  .news_item_content h3 {
+    margin: 10px 0 5px;
+  }
+  .news_item_content a {
+    margin: 4px 0 10px;
+  }
+  /* === news ===  */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
