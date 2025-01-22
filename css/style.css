@@ -189,6 +189,83 @@ nav {
 }
 .banner_right_part {
   max-width: 384px;
+  padding: 40px 30px 50px;
+  border-radius: 24px;
+  background-color: #9c9c9c;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  text-align: center;
+}
+.banner_right_part h3 {
+  color: var(--white-clr);
+  font-family: var(--cairo-font);
+  font-size: 48px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+}
+.banner_right_part h4 {
+  color: var(--white-clr);
+  font-family: var(--openSans-font);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  margin-bottom: 29px;
+}
+
+.banner_right_part_slider {
+  max-width: 206px;
+  height: 291px;
+  border-radius: 14px;
+  border: 2px solid #fff;
+  background-color: #c4c4c4;
+  box-shadow: 0px 25px 33px 0px rgba(255, 255, 255, 0.25);
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  margin: 0 auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+.banner_right_part_slider img{
+  height: 291px;
+
+
+}
+.banner_right_part_slider .carousel-item{
+  width: 100%;
+}
+
+.banner_right_part h5 {
+  color: var(--white-clr);
+  font-family: var(--cairo-font);
+  font-size: 20px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin-top: 20px;
+}
+.banner_right_part p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: var(--openSans-font);
+  font-size: 12px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+.banner_right_part .banner_right_part_btn {
+  padding: 13px 33px 13px 29px;
+  margin-top: 20px;
+  border-radius: 14px;
+  background: var(--white-clr);
+  color: var(--primary-text-clr);
+  font-family: var(--cairo-font);
+  font-size: 18px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+}
+.banner_right_part .banner_right_part_btn span {
+  color: var(--secondary-text-clr);
+  margin-right: 17px;
 }
 /* ================ banner section css end here =============== */
 /* ================ service section css start here =============== */
