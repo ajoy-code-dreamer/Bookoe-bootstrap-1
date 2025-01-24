@@ -189,7 +189,7 @@ nav {
 }
 .banner_right_part {
   max-width: 384px;
-  padding: 40px 30px 50px;
+  padding: 30px 30px 45px;
   border-radius: 24px;
   background-color: #9c9c9c;
   -webkit-border-radius: 24px;
@@ -210,12 +210,11 @@ nav {
   font-family: var(--openSans-font);
   font-size: 16px;
   font-weight: var(--regular-weight);
-  margin-bottom: 29px;
+  margin-bottom: 24px;
 }
-
-.banner_right_part_slider {
+.banner_right_part_slider_wrapper img {
+  max-height: 291px;
   max-width: 206px;
-  height: 291px;
   border-radius: 14px;
   border: 2px solid #fff;
   background-color: #c4c4c4;
@@ -224,20 +223,8 @@ nav {
   -moz-border-radius: 14px;
   -ms-border-radius: 14px;
   -o-border-radius: 14px;
-  margin: 0 auto;
-  overflow: hidden;
-  object-fit: cover;
 }
-.banner_right_part_slider img{
-  height: 291px;
-
-
-}
-.banner_right_part_slider .carousel-item{
-  width: 100%;
-}
-
-.banner_right_part h5 {
+.banner_right_part_slider_wrapper .slider_item h5 {
   color: var(--white-clr);
   font-family: var(--cairo-font);
   font-size: 20px;
@@ -245,7 +232,7 @@ nav {
   line-height: normal;
   margin-top: 20px;
 }
-.banner_right_part p {
+.banner_right_part_slider_wrapper .slider_item p {
   color: rgba(255, 255, 255, 0.6);
   font-family: var(--openSans-font);
   font-size: 12px;
@@ -262,11 +249,36 @@ nav {
   font-size: 18px;
   font-weight: var(--bold-weight);
   line-height: normal;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
 .banner_right_part .banner_right_part_btn span {
   color: var(--secondary-text-clr);
   margin-right: 17px;
 }
+.banner_right_part_btn:hover {
+  background-color: var(--primary-clr);
+  color: var(--white-clr);
+}
+.banner_right_part_slider_wrapper button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.18);
+  color: var(--white-clr);
+  font-size: 16px;
+  text-align: center;
+  line-height: 32px;
+  top: 146px;
+}
+
 /* ================ banner section css end here =============== */
 /* ================ service section css start here =============== */
 .service_item {

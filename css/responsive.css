@@ -188,13 +188,13 @@
   }
   .footer_item_wrapper .footer_details {
     margin-bottom: 26px;
-}
-.footer_item_wrapper {
-  margin-bottom: 25px;
-}
-.footer_quick_link_wrapper {
-  gap: 2px;
-}
+  }
+  .footer_item_wrapper {
+    margin-bottom: 25px;
+  }
+  .footer_quick_link_wrapper {
+    gap: 2px;
+  }
   /* === footer === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
@@ -361,6 +361,31 @@
     max-width: 440px;
   }
   /* === navbar === */
+  /* === banner === */
+  .banner_right_part {
+    padding: 20px 15px;
+  }
+  .banner_right_part h3 {
+    font-size: 32px;
+  }
+  .banner_right_part h4 {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  .banner_right_part_slider_wrapper img {
+    max-height: 185px;
+    max-width: 146px;
+  }
+  .banner_right_part_slider_wrapper .slider_item h5 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .banner_right_part .banner_right_part_btn {
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  /* === banner === */
   /* === books_sale === */
   #book_sale .common_section_heading {
     align-items: center;
