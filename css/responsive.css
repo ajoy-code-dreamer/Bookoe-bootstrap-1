@@ -24,6 +24,16 @@
     font-size: 18px;
   }
   /* === navbar === */
+  /* === banner ===  */
+  .banner_left_part .carousel-indicators {
+    bottom: 8%;
+}
+.banner_left_part .carousel-indicators button {
+  width: 6px;
+  height: 6px;
+  margin-right: 8px;
+}
+  /* === banner ===  */
   /* === feature === */
   #feature {
     padding: 30px 0 30px;

@@ -187,6 +187,28 @@ nav {
 .banner_left_part {
   max-width: 1212px;
 }
+.banner_left_part .carousel-indicators {
+  left: 7.5%;
+  bottom: 12%;
+  right: unset;
+  top: unset;
+  margin: 0;
+}
+.banner_left_part .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #d7d0fb;
+  margin-right: 15px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.banner_left_part .carousel-indicators button.active {
+  background-color: #6c5dd3;
+}
 .banner_right_part {
   max-width: 384px;
   padding: 30px 30px 45px;
