@@ -399,13 +399,29 @@ nav {
   text-align: center;
   cursor: pointer;
 }
-.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
   color: unset;
 }
 .feature_slider_arrow {
   line-height: 50px;
   font-size: 22px;
   color: var(--primary-text-clr);
+}
+
+.feature_item img {
+  max-width: 148px;
+  height: 206px;
+  border-radius: 14px;
+  overflow: hidden;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  padding: 4px;
+  background: var(--secondary-text-clr);
 }
 /* ================ feature section css end here =============== */
 /* ================ offers section css start here =============== */
@@ -778,19 +794,91 @@ nav {
   max-width: 453px;
   margin-bottom: 60px;
 }
-.books_features_images {
+.books_single_item_details_wrapper {
+  padding: 30px;
   max-width: 762px;
-  height: 482px;
   border-radius: 14px;
+  background: var(--white-clr);
   box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
-  -webkit-border-radius: 14px;
-  -moz-border-radius: 14px;
-  -ms-border-radius: 14px;
-  -o-border-radius: 14px;
+}
+.books_single_item_details_image {
+  max-width: 292px;
+  height: 411px;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
-  cursor: pointer;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.single_books_name {
+  margin-left: 14px;
+}
+.single_books_name h4 {
+  color: var(--primary-text-clr);
+  font-family: var(--cairo-font);
+  font-size: 30px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin-bottom: 3px;
+}
+.single_books_name h6 {
+  font-family: var(--openSans-font);
+  color: var(--primary-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+.books_single_item_details h3 {
+  color: var(--primary-text-clr);
+  font-family: var(--openSans-font);
+  font-size: 18px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 24px;
+  margin: 34px 0 15px;
+}
+.books_single_item_details p {
+  max-width: 353px;
+  color: var(--primary-text-clr);
+  font-family: var(--openSans-font);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: 20px;
+  margin-bottom: 21px;
+}
+.single_books_publisher_wrapper {
+  column-gap: 58px;
+  margin-bottom: 25px;
+}
+.single_books_publisher h5 {
+  color: var(--secondary-text-clr);
+  font-family: var(--openSans-font);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.single_books_publisher h6 {
+  color: var(--primary-text-clr);
+  font-family: var(--openSans-font);
+  font-size: 18px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+}
+.single_books_price {
+  color: var(--primary-text-clr);
+  font-family: var(--cairo-font);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: normal;
+}
+.single_books_price del {
+  margin-left: 15px;
+  color: var(--secondary-text-clr);
+  font-weight: var(--semi-bold-weight);
+  font-size: 20px;
 }
 .books_right_part_wrapper .row {
   row-gap: 37px;
